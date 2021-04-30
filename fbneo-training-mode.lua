@@ -1124,7 +1124,7 @@ input.registerhotkey(1, toggleInteractiveGuiEnabled)
 input.registerhotkey(2, callGuiSelectionFunc)
 input.registerhotkey(3, changeInteractiveGuiSelection)
 input.registerhotkey(4, function() print(interactiveguipages[interactivegui.page][interactivegui.selection].info) end)
-input.registerhotkey(5, function() recording.hitplayback = true end)
+input.registerhotkey(5, function() recording.didhitplayback = true end)
 
 
 local parseInputs = function() 
